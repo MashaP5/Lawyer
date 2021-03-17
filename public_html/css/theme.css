@@ -1,0 +1,221 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 2:28:20 PM
+    Author     : frontend
+*/
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #1E1E1E;
+
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, h5, .h6{
+    font-size: 36px;
+    line-height: 64px;
+}
+p{
+    font-size: 1rem;
+    line-height: 25px;
+    font-weight: 300;
+
+}
+html{
+    font-size: 16px; /* 1rem*/
+}
+
+img{
+    max-width: 100%;
+}
+
+.image-placeholder{
+    position: relative;
+    overflow: hidden;
+}
+.image-placeholder:after{
+    content: '';
+    display: block;
+    padding-top: 56.62%;
+}
+.image-placeholder img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.size-1by1:after{
+    padding-top: 100%;
+}
+
+.size-4by3:after{
+    padding-top: 75%;
+}
+
+/*NAVIGATION STYLE*/
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    background: #1A77CD;
+    margin-bottom: 5px;
+    display: block;
+}
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+.navbar-light .navbar-toggler{
+    border-color: #1A77CD;
+    color: transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #1E1E1E;
+    color:#FFFFFF;
+}
+
+/*HOME STYLE*/
+.home{
+    margin-bottom: 77px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.home .home-content .home-content-title{
+    font-size: 50px;
+}
+.home .home-content .btn-more{
+    color: #FFFFFF;
+    background-color: #1A77CD;
+    border-radius: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 26px;
+}
+.home .home-content .btn-more:hover{
+    background-color: #FFFFFF;
+    color: #1A77CD;
+    border-color: #1A77CD;
+
+}
+
+/*AREAS STYLE*/
+.areas{
+    margin-bottom: 89px;
+}
+.areas .areas-title{
+    margin-bottom: 60px;
+}
+.areas .areas-icon a{
+    color:#1A77CD;
+    font-size: 2.5rem;
+    height: 81px;
+    width: 83px;
+    text-decoration: none;
+}
+.areas .areas-item-title a{
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: 1.14px;
+    color: #1E1E1E;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*TEAM STYLE*/
+.team{
+    padding-top: 67px;
+    padding-bottom: 68px;
+    margin-bottom: 61px;
+}
+.team .team-link .justify-content-md-end{
+    height: 100%;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+.team .team-item .team-item-title{
+    color: #1A77CD;
+    font-size: 22px;
+    line-height: 27px;       
+}
+.team .team-image{
+    margin: 0 !important;
+}
+
+.team .team-item a{
+    color: #586C88;
+    width:30px;
+    height:30px;
+    font-size: 2rem;
+    text-decoration: none;
+    display: block;
+}
+
+/*CONTACT STYLE*/
+
+.contact{
+    background-color: #11284B;
+    padding-top: 75px;
+    padding-bottom: 69px;
+}
+.contact .contact-title{
+    color: #1A77CD;
+    margin-bottom: 36px;
+}
+.contact .contact-icon{
+    color: #586C88;
+    margin-right: 12px;
+    font-size: 1.5rem;
+    transition: all 0.5s linear;
+}
+.contact .contact-icon:hover{
+    transform: scale(1.5);
+}
+.contact a{
+    color: #586C88;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.contact span + span{
+    color: #586C88;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+/*FOOTER STYLE*/
+
+.social a{
+    color: #586C88;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.2s linear;
+    margin-left: 1.5rem;
+
+}
+.social a:hover{
+    transform: scale(1.5);
+}
+.footer-end{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 41px;
+    color: #586C88;
+}

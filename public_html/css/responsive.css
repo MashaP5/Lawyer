@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 2:28:30 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0        ''      NO NAME
+
+> 576px    SM    Small Devices
+
+> 768px    MD    Medium Devices
+
+> 992      LG    Large Devices
+
+> 1200     XL    Extra Large
+
+> 1400     XXL   Extra Extra Large
+
+*/
+
+
+@media(min-width:576px){
+/*HOME STYLE*/
+    .home{
+        padding: 48px 0;
+    }
+/*AREAS STYLE*/
+
+.areas .areas-icon a{
+    transition: 0.2s linear;
+}
+.areas .areas-item:hover .areas-icon{
+    transform: scale(1.1);
+}
+}
+
+@media(min-width:768px){
+/*    NAVIGATION STYLE*/
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: transparent;
+    color:inherit;
+}
+/*HOME STYLE*/
+.home{
+    padding: 133px 0;
+}
+
+/*TEAM STYLE*/
+.team .team-wrapper{
+        position: relative;
+    }
+    .team .team-item a{
+        position: absolute;    
+    }
+    
+    .team .team-item .team-item-title{
+        font-size: 21px;
+    }
+}
+
+@media(min-width:992px){
+    /*  NAVIGATION STYLE*/
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 52px;
+    }
+    
+/*    AREAS STYLE*/
+    .areas .areas-wrapper{
+        margin-bottom: 66px !important;
+    }
+    
+/*    TEAM STYLE*/
+
+.team .team-item a{
+    bottom: 0;
+}
+}
+
+@media(min-width:1200px){
+    
+/*    TEAM STYLE*/
+    .team .team-wrapper{
+        position: relative;
+    }
+    .team .team-item a{
+        position: absolute;
+        bottom: 0;
+    }
+    
+
+}
+
+@media(min-width:1400px){
+
+
+}
